@@ -6,7 +6,7 @@ Requires [PluginInterop](https://github.com/jdrudolph/PluginInterop)
 and [Python](https://www.python.org/) with
 [perseuspy](https://www.github.com/jdrudolph/perseuspy) installed.
 
-For questions and bug reports please use the [issue](issues) system.
+For questions and bug reports please use the [issue](https://github.com/jdrudolph/plugindependentpeptides/issues) system.
 
 ## Installation
 
