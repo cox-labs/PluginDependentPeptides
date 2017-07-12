@@ -14,3 +14,7 @@ For questions and bug reports please use the [issue](https://github.com/jdrudolp
 Perseus [plugin store](http://www.coxdocs.org/doku.php?id=perseus:user:plugins:store#available_plugins), along side its dependency `PluginInterop`.
 
 For latests builds you require to have [Visual Studio](https://www.visualstudio.com/downloads/).
+
+## Plugin development guide
+
+You can find a plugin development guide on [github](https://github.com/jdrudolph/PluginTutorial).
