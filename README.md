@@ -15,6 +15,11 @@ Perseus [plugin store](http://www.coxdocs.org/doku.php?id=perseus:user:plugins:s
 
 For latests builds you require to have [Visual Studio](https://www.visualstudio.com/downloads/).
 
+## Frequently asked questions
+
+1. **Where can I find the `experimentalDesign.txt` file?** First load your project in MaxQuant.
+    Now in the "Raw files" tab there is a "Write template" button which allows you to export the experimental design.
+
 ## Plugin development guide
 
 You can find a plugin development guide on [github](https://github.com/jdrudolph/PluginTutorial).
