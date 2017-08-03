@@ -17,8 +17,9 @@ For latests builds you require to have [Visual Studio](https://www.visualstudio.
 
 ## Frequently asked questions
 
-1. **Where can I find the `experimentalDesign.txt` file?** First load your project in MaxQuant.
-    Now in the "Raw files" tab there is a "Write template" button which allows you to export the experimental design.
+1. **Where can I find the `rawFilesTable.txt` file?** First load your project in MaxQuant.
+   Now in the 'Raw files' tab right click the table and choose `Plain matrix export...`.
+   ![rawFilesTable.txt](/img/rawfilestable.png)
 
 ## Plugin development guide
 

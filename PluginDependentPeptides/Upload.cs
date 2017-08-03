@@ -32,7 +32,7 @@ namespace PluginDependentPeptides
             return new Parameter[]
             {
                 new FileParam("allPeptides.txt"), 
-                new FileParam("experimentalDesign.txt"), 
+                new FileParam("Raw files table"), 
             };
         }
     }

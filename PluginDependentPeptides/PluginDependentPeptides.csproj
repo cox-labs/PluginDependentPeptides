@@ -30,17 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaseLib">
-      <HintPath>..\DLLs\BaseLib.dll</HintPath>
+    <Reference Include="BaseLib, Version=1.6.0.245, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BaseLib.1.6.0.245\lib\net45\BaseLib.dll</HintPath>
     </Reference>
-    <Reference Include="BaseLibS">
-      <HintPath>..\DLLs\BaseLibS.dll</HintPath>
+    <Reference Include="BaseLibS, Version=1.6.0.93, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BaseLibS.1.6.0.93\lib\net45\BaseLibS.dll</HintPath>
     </Reference>
-    <Reference Include="PerseusApi">
-      <HintPath>..\DLLs\PerseusApi.dll</HintPath>
+    <Reference Include="PerseusApi, Version=1.6.0.156, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PerseusApi.1.6.0.156\lib\net45\PerseusApi.dll</HintPath>
     </Reference>
-    <Reference Include="PluginInterop, Version=1.6.0.18, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PluginInterop.1.6.0.18\lib\net45\PluginInterop.dll</HintPath>
+    <Reference Include="PluginInterop, Version=1.6.0.22, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PluginInterop.1.6.0.22\lib\net45\PluginInterop.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -68,6 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dependent_peptides_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="conf\crosslinks.xml" />
+    <Content Include="conf\databases.xml" />
+    <Content Include="conf\enzymes.xml" />
+    <Content Include="conf\modifications.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
