@@ -23,6 +23,9 @@ For latests builds you require to have [Visual Studio](https://www.visualstudio.
 
 ## Frequently asked questions
 
+Take a look at the [issues](https://github.com/jdrudolph/PluginDependentPeptides/issues?utf8=%E2%9C%93&q=is%3Aissue%20) and
+see if your question was already answered. Additionally you can look for help in the [Perseus Help](https://groups.google.com/forum/#!forum/perseus-list) google group.
+
 1. **Where can I find the `rawFilesTable.txt` file?** First load your project in MaxQuant.
    Now in the 'Raw files' tab right click the table and choose `Plain matrix export...`.
    ![rawFilesTable.txt](/img/rawfilestable.png)
