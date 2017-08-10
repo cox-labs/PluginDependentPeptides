@@ -15,6 +15,12 @@ Perseus [plugin store](http://www.coxdocs.org/doku.php?id=perseus:user:plugins:s
 
 For latests builds you require to have [Visual Studio](https://www.visualstudio.com/downloads/).
 
+## Verify your installation
+
+1. Download small example files for the [`allPeptides.txt` table](https://raw.githubusercontent.com/jdrudolph/perseuspy/master/perseuspy/test/allPeptides.txt.sample)
+   and the [Raw files table](https://raw.githubusercontent.com/jdrudolph/perseuspy/master/perseuspy/test/rawFilesTable.txt.sample).
+2. Run the `Dependent Peptides` upload in Perseus.
+
 ## Frequently asked questions
 
 1. **Where can I find the `rawFilesTable.txt` file?** First load your project in MaxQuant.
