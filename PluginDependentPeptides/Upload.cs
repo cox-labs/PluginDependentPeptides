@@ -7,24 +7,18 @@ using Path = System.IO.Path;
 
 namespace PluginDependentPeptides
 {
-    public class Upload : PluginInterop.MatrixUpload
+    public class Upload : PluginInterop.Python.MatrixUpload
     {
         public override string Name => "Dependent peptides";
-        public override string Description => "Create the dependent peptides table from the allPeptides.txt and experimentalDesign.txt";
+        public override string Description => "Create the dependent peptides table from the allPeptides.txt and rawFilesTable.txt";
 
         public override Bitmap2 DisplayImage => GraphUtils.ToBitmap2(Properties.Resources.dependent_peptides_icon);
 
-        protected override string GetCodeFile(Parameters param)
+        protected override bool TryGetCodeFile(Parameters param, out string codeFile)
         {
-            byte[] code = (byte[])Properties.Resources.ResourceManager.GetObject("dependent_peptides");
-            var codeFile = Path.GetTempFileName();
-            File.WriteAllText(codeFile, Encoding.Default.GetString(code, 0, code.Length - 1));
-            return codeFile;
-        }
-
-        protected override bool TryFindExecutable(out string path)
-        {
-            return PluginInterop.Python.Utils.TryFindPythonExecutable(out path);
+            codeFile = Path.GetTempFileName();
+            File.WriteAllText(codeFile, Encoding.UTF8.GetString(Properties.Resources.dependent_peptides));
+            return true;
         }
 
         protected override Parameter[] SpecificParameters(ref string errString)
